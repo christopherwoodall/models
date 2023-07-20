@@ -15,7 +15,8 @@ tf_slim>=1.1.0
 Cython
 matplotlib
 # Loader becomes a required positional argument in 6.0 in yaml.load
-pyyaml>=5.1,<6.0
+# See https://github.com/yaml/pyyaml/issues/724 for issues with pyyaml 5.4.1
+pyyaml>=5.1,<7.0
 # CV related dependencies
 opencv-python-headless==4.5.2.52
 Pillow
